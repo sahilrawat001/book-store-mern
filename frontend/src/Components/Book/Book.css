@@ -1,0 +1,56 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.card{
+     background-color: bisque;
+    padding: 1rem;
+    gap: 8px;
+     width: 100%;
+   position: relative;
+   overflow: hidden;
+  height: 100%;
+  box-shadow: 5px 5px 10px rgb(188, 188, 188) ;
+  align-items: center;
+  
+}
+li{
+    padding: 10px;
+    width: 350px;
+    max-width: 250px;
+    max-height: 400px
+}
+.card>img{
+    width: 100%;
+     height: 40%;
+ }
+.card h3{
+     margin: 2px;
+     height: 6%;
+     padding: 5px;
+     position: absolute;
+     top: 45%;
+}
+.card p{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    padding: 3px;
+}
+.card h2{
+    position: absolute;
+    bottom: 8%;
+margin-bottom: 0%;
+}
+article{
+    position: absolute;
+     font-weight: 600;
+}
+.card .b{
+ left: 25%; 
+position: absolute;
+    bottom: 0%;
+ }
