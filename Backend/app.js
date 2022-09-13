@@ -12,7 +12,7 @@ app.use( '/books' , router );
 
 
 mongoose.connect(
-    "mongodb+srv://sahil:sahilrawat@cluster0.lwte9jn.mongodb.net/mydb?retryWrites=true&w=majority"
+    "mongodb+srv://sahil:sahilrawat@cluster0.lwte9jn.mongodb.net/mydb?retryWrites=true&w=majority "
 
 ).then( ()=>console.log("connected to  db") ).then(
     ()=>{ 
